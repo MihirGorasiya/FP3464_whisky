@@ -31,4 +31,19 @@ public class Product implements IProduct{
         return productId;
     }
 
+    @Override
+    public String getProductName() {
+        return productName;
+    }
+
+    @Override
+    public double getProductPrice() {
+        return productPrice;
+    }
+
+    @Override
+    public String getProductType() {
+        return productType;
+    }
+
 }
