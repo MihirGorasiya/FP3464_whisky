@@ -21,4 +21,14 @@ public class Product implements IProduct{
         productType = "Non Eatable";
     }
 
+    @Override
+    public String toString() {
+        return productId+" "+productName+" "+productPrice+" "+productType;
+    }
+
+    @Override
+    public int getProductId() {
+        return productId;
+    }
+
 }
