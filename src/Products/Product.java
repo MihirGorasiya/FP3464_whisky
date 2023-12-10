@@ -14,4 +14,11 @@ public class Product implements IProduct{
         this.productType = productType;
     }
 
+    public Product(int productId, String productName, double productPrice) {
+        this.productId = productId;
+         this.productName = productName;
+        this.productPrice = productPrice;
+        productType = "Non Eatable";
+    }
+
 }
