@@ -1,3 +1,5 @@
+package Recipt;
+
 import Products.Product;
 
 public interface Recipt {
